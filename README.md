@@ -11,33 +11,35 @@ The API was developed for my Youtube Tutorial, to demonstrate how to configure A
 
 ## Table of Contents
 
-    Installation
-    Configuration
-    Usage
-    API Endpoints
-    Authentication
-    Database
-    Contributing
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Authentication](#authentication)
+- [Database](#database)
+- [Contributing](#contributing)
 
 ## Installation
 
-    Clone the repository:
-
+1. Clone the repository:
+```bash
 git clone https://github.com/wandberglima/autorizationJWT.git
-
-    Install dependencies with Maven
-
-    Install PostgresSQL
-
+```
+2. Install dependencies with Maven
+   
+3.  Install [PostgresSQL](https://www.postgresql.org/)
+   
 ## Usage
 
-    Start the application with Maven
-    The API will be accessible at http://localhost:8080
+1. Start the application with Maven
+   
+2. The API will be accessible at http://localhost:8080
 
 ## API Endpoints
 
 The API provides the following endpoints:
 
+```markdown
 GET /product - Retrieve a list of all products. (all authenticated users)
 
 POST /product - Register a new product (ADMIN access required).
@@ -45,22 +47,23 @@ POST /product - Register a new product (ADMIN access required).
 POST /auth/login - Login into the App
 
 POST /auth/register - Register a new user into the App
+```
 
 ## Authentication
 
 The API uses Spring Security for authentication control. The following roles are available:
-
+```
 USER -> Standard user role for logged-in users.
 ADMIN -> Admin role for managing partners (registering new partners).
+```
 
 To access protected endpoints as an ADMIN user, provide the appropriate authentication credentials in the request header.
 
 ## Database
-
-The project utilizes PostgresSQL as the database. The necessary database migrations are managed using Flyway.
+The project utilizes [PostgresSQL](https://www.postgresql.org/) as the database. The necessary database migrations are managed using Flyway.
 
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request to the repository.
 
-When contributing to this project, please follow the existing code style, commit conventions, and submit your changes in a separate branch.
+When contributing to this project, please follow the existing code style, [commit conventions](https://www.conventionalcommits.org/en/v1.0.0/), and submit your changes in a separate branch.
