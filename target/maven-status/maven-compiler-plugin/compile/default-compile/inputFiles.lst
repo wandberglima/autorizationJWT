@@ -1,0 +1,17 @@
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/domain/product/Product.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/domain/user/LoginResponseDTO.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/domain/product/ProductRequestDTO.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/controllers/ProductController.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/AuthApplication.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/repositories/ProductRepository.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/domain/user/AuthenticationDTO.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/infra/security/SecurityConfigurations.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/repositories/UserRepository.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/domain/user/UserRole.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/services/AuthorizationService.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/infra/security/TokenService.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/infra/security/SecurityFilter.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/domain/product/ProductResponseDTO.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/domain/user/RegisterDTO.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/domain/user/User.java
+/home/wandberg/alura/estudos JWT/auth-api/src/main/java/com/example/auth/controllers/AuthenticationController.java
