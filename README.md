@@ -7,7 +7,7 @@
 
 This project is an API built using Java, Java Spring, Flyway Migrations, PostgresSQL as the database, and Spring Security and JWT for authentication control.
 
-The API was developed for my Youtube Tutorial, to demonstrate how to configure Authenticatio and Authorization in Spring application using Spring Security.
+The API was developed for my study and to demonstrate how to configure Authentication and Authorization in Spring application using Spring Security.
 
 ## Table of Contents
 
